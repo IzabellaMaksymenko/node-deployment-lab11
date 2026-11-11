@@ -70,9 +70,9 @@ node scripts/check-api.mjs http://localhost:4100 1.0.0 staging
 
 ## Результат роботи — заповнює студент
 
-- Команда локального запуску:
-- Параметри середовища:
-- Посилання на репозиторій:
-- Спосіб розгортання та URL або причина локального варіанта:
-- Результат перевірки версії 1.1.0 та її коміту:
-- Ресурси, які зупинено або видалено:
+- Команда локального запуску: `npm run dev` (порт 4100, потрібен локальний файл .env, створений із .env.example)
+- Параметри середовища: PORT=4100, NODE_ENV=production, APP_ENV=staging, APP_MESSAGE (локально); на Render NODE_ENV=production, APP_ENV=production, APP_MESSAGE, PORT задає платформа
+- Посилання на репозиторій: https://github.com/IzabellaMaksymenko/node-deployment-lab11
+- Спосіб розгортання та URL або причина локального варіанта: Render Free Web Service, https://lab11-izabellamaksymenko-api.onrender.com (Free-сервіс засинає за відсутності запитів, перший запит може тривати до 2 хвилин)
+- Результат перевірки версії 1.1.0 та її коміту: API checks passed, version 1.1.0, revision 3b0967ea55fbed7827c7abb07e637e8c3a6114be (коміт «Publish API version 1.1.0»)
+- Ресурси, які зупинено або видалено: Render-сервіс залишено активним для перевірки викладачем
